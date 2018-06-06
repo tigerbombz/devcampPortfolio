@@ -18,9 +18,15 @@
 
       <%= render "shared/application_nav"%>
 
-      <%= login_helper %>
       
       <%= yield %>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer> 
+
 
       <%= source_helper("application") %>
 
