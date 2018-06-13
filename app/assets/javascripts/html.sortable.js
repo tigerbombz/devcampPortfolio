@@ -1,5 +1,3 @@
-alert("Hey There"); 
-
 var sortable = (function () {
     'use strict';
 
