@@ -16,17 +16,22 @@
   <body>
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
+      <%= video_tag(
+          'data.webm',
+          id: "background",
+          autoplay: true,
+          loop: true,
+          muted: true,
+          poster: 'crypto2.png'
+        )
+        %>
+
       <%= render "shared/application_nav"%>
 
       
       <%= yield %>
 
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-        </div>
-      </footer> 
-
+      <%= render 'shared/application_footer' %>
 
       <%= source_helper("application") %>
 
