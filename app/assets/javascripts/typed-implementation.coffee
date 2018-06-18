@@ -2,7 +2,7 @@ ready = ->
   new Typed '.element',
     strings: [
       'Software development is the closest concept we have to magic.',
-      "It's my goal to ensure that anyone with a passion for coding can become a true programming artisan."
+      "I always considered programming as being like modern-day wizardry. You could think of things in your mind and then make them happen."
     ]
     typeSpeed: 30
   return

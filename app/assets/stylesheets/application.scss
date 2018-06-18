@@ -210,3 +210,18 @@ h6, .h6 {
   margin-top: 10px;
   margin-bottom: 10px; 
 }
+
+.card-detail {
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.card-detail .title{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-detail .role {
+  text-decoration: underline;
+  font-style: italic;
+}
