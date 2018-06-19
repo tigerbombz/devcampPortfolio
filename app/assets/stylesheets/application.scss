@@ -31,6 +31,8 @@ html,
 body {
   height: 100%;
   font-family: 'Lato', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body {
@@ -224,4 +226,8 @@ h6, .h6 {
 .card-detail .role {
   text-decoration: underline;
   font-style: italic;
+}
+
+.app-nav {
+  margin-bottom: 30px;
 }
